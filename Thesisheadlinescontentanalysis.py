@@ -2,7 +2,7 @@ import openai
 import os
 
 # Using my API key to use the openai python kit
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""sk-"insert open ai api key here""
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def content_analysis(title, article):
